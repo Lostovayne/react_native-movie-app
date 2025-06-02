@@ -1,11 +1,7 @@
-import { View } from "react-native";
-import Index from ".";
+import { Slot } from 'expo-router';
 import "./global.css";
 
 export default function RootLayout() {
-  return (
-    <View>
-      <Index />
-    </View>
-  );
+  return <Slot />;
 }
+
